@@ -8,3 +8,4 @@ Thanks to Ben Tristem for all his help and insight.
 ---
 ## Lecture List
 * BT01 Intro, Notes & Assets
+* BT02 Game Design Document (GDD)

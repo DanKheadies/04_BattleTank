@@ -3,7 +3,23 @@
 #include "BattleTank.h"
 #include "TankPlayerController.h"
 
+void ATankPlayerController::BeginPlay()
+{
+	Super::BeginPlay();
 
+	auto ControlledTank = GetControlledTank();
+
+	if (!ControlledTank) 
+	{
+		UE_LOG(LogTemp, Warning, TEXT("No tank :("));
+	}
+	else 
+	{
+		UE_LOG(LogTemp, Warning, TEXT("TANK!!!!!!!! %s"), *(ControlledTank->GetName()));
+	}
+	
+	UE_LOG(LogTemp, Warning, TEXT("PlayerController YOLO SWAG"));
+}
 
 ATank* ATankPlayerController::GetControlledTank() const
 {

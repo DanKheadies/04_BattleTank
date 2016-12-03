@@ -12,11 +12,11 @@ void ATankPlayerController::BeginPlay()
 
 	if (!ControlledTank) 
 	{
-		UE_LOG(LogTemp, Warning, TEXT("No tank :("));
+		// UE_LOG(LogTemp, Warning, TEXT("No tank :("));
 	}
 	else 
 	{
-		UE_LOG(LogTemp, Warning, TEXT("TANK!!!!!!!! %s"), *(ControlledTank->GetName()));
+		// UE_LOG(LogTemp, Warning, TEXT("TANK!!!!!!!! %s"), *(ControlledTank->GetName()));
 	}
 }
 

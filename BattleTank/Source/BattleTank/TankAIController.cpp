@@ -12,11 +12,11 @@ void ATankAIController::BeginPlay()
 
 	if (!PlayerTank)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("No tank(s) :("));
+		// UE_LOG(LogTemp, Warning, TEXT("No tank(s) :("));
 	}
 	else
 	{
-		UE_LOG(LogTemp, Warning, TEXT("The frenemy: %s"), *(PlayerTank->GetName()));
+		// UE_LOG(LogTemp, Warning, TEXT("The frenemy: %s"), *(PlayerTank->GetName()));
 	}
 
 }

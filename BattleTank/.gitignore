@@ -1,7 +1,5 @@
 *.VC.db
-Content/StarterContent/Textures
-Content/StarterContent/HDRI
-Content/StarterContent/Maps
+BattleTank.VC.VC.opendb
 
 # Visual Studio 2015 user specific files
 .vs/

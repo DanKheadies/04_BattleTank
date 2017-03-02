@@ -25,6 +25,6 @@ private:
 	virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION()
-		void OnPossessedTankDeath();
+	void OnPossessedTankDeath();
 
 };
